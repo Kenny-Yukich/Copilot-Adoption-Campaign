@@ -1,0 +1,23 @@
+# Real data never gets committed
+config.json
+out/
+data/
+*.local.csv
+*-real.csv
+**/exports/
+
+# Office temp files
+~$*
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
