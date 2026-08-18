@@ -1,0 +1,15 @@
+{
+  "user_column": "UserPrincipalName",
+  "department_column": "Department",
+  "activity_column_suffix": "CopilotActions",
+  "activity_columns": [],
+  "exclude_users": [
+    "program.owner@example.com",
+    "svc-testaccount@example.com"
+  ],
+  "denominator_override": null,
+  "target_active_rate": 90.0,
+  "data_source": "<name your usage report source>",
+  "window": "rolling 28-day",
+  "dormant_followup_threshold": 0
+}
